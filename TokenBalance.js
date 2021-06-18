@@ -30,7 +30,7 @@ async function getBalance() {
         document.getElementById("output").innerHTML = error;
     }
 }
-async function getERC20Balance() {
+async function getTokenBalance() {
     var address, contractAddress, contractABI, tokenContract, decimals, balance, name, symbol, adjustedBalance
     address = document.getElementById("address").value
     contractAddress = document.getElementById("contractAddress").value
