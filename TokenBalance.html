@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="web3.min.js"></script>
+    <script type="text/javascript" src="tokenABI.js"></script>
+    <script type="text/javascript" src="TokenBalance.js"></script>
+</head>
+<body>
+    <h1>Only this then get ETH balance</h1>
+    <p>Main Address:</p>
+    <input type="text" size="88" id="address" />
+    <button type="button" onClick="getBalance();">Show me the Balance!</button>
+    <br />
+    <br />
+    <div id="output"></div>
+    <p>Here put the Token Contract address:</p>
+    <input type="text" size="88" id="contractAddress" />
+    <button type="button" onClick="getERC20Balance();">Get ERC20 Balance</button>
+    <br />
+    <br />
+    <div id="output2"></div>
+</body>
+</html>
